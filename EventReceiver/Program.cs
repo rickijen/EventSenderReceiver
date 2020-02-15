@@ -14,10 +14,10 @@ namespace EventReceiver
 {
     class Program
     {
-        private const string ehubNamespaceConnectionString = "Endpoint=sb://gdseventhub01.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=N1Kx06n5IOxW+CDzBQyCIyxHbuEEYa6rgX5o5LG6fbg=";
+        private const string ehubNamespaceConnectionString = "XXX";
         //private const string eventHubName = "hub01";
         private const string eventHubName = "hub02";
-        private const string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sagdsgeneral001;AccountKey=ZsO89/SSSqsl2JTJI42WgcVEbWafdBnd2KVtLQ1PdkXgKBoV9FsWzr3W6zZ+NMPGFy/6ecMzxGFH0vMz/VW0rQ==;EndpointSuffix=core.windows.net";
+        private const string blobStorageConnectionString = "XXX";
         private const string blobContainerName = "checkpoints";
         static async Task Main()
         {
