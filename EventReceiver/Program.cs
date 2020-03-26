@@ -12,6 +12,14 @@ namespace EventReceiver
 {
     class Program
     {
+<<<<<<< HEAD
+=======
+        private const string ehubNamespaceConnectionString = "XXX";
+        //private const string eventHubName = "hub01";
+        private const string eventHubName = "hub02";
+        private const string blobStorageConnectionString = "XXX";
+        private const string blobContainerName = "checkpoints";
+>>>>>>> 312546edc43095eaa0aa57892f2b56395dd0d607
         static async Task Main()
         {
             // Read all environment variables
