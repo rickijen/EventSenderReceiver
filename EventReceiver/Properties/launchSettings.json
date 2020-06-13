@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "EventReceiver": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "EHUB": "hub01",
+        "EHUB_CONTAINER": "ehubproc",
+        "EHUB_BLOB_CONNSTR": "BlobEndpoint=https://sagdsgeneral001.blob.core.windows.net/;QueueEndpoint=https://sagdsgeneral001.queue.core.windows.net/;FileEndpoint=https://sagdsgeneral001.file.core.windows.net/;TableEndpoint=https://sagdsgeneral001.table.core.windows.net/;SharedAccessSignature=sv=2019-02-02&ss=bfqt&srt=sco&sp=rwdlacup&se=2020-04-04T01:21:18Z&st=2020-03-26T17:21:18Z&spr=https&sig=CQBoXkoOQY8JlytpjYIjWz3ntfGWjFXsC4IDlK%2Bav2A%3D",
+        "EHUB_NS_CONNSTR": "Endpoint=sb://gdseventhub01.servicebus.windows.net/;SharedAccessKeyName=default;SharedAccessKey=u5b8pvZaawidL61K9cSBjB10y9YBCczMwtQYvGjWnPk=;EntityPath=hub01"
+      }
+    }
+  }
+}
